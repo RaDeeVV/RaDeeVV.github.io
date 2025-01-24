@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Web Profesional</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Sección de cabecera -->
+  <header class="header">
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de Hero o portada -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Bienvenidos a Mi Portafolio</h1>
+      <p>Explora mis proyectos.</p>
+      <a href="#proyectos" class="cta-btn">Ver Proyectos</a>
+    </div>
+  </section>
+
+  <!-- Sección de Proyectos -->
+  <section id="proyectos" class="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <div class="project-gallery">
+      <div class="project-card">
+        <img src="proyecto1.jpg" alt="Proyecto 1">
+        <h3>Proyecto 1</h3>
+        <p>Descripción breve del proyecto realizado.</p>
+      </div>
+      <div class="project-card">
+        <img src="proyecto2.jpg" alt="Proyecto 2">
+        <h3>Proyecto 2</h3>
+        <p>Descripción breve del proyecto realizado.</p>
+      </div>
+      <div class="project-card">
+        <img src="proyecto3.jpg" alt="Proyecto 3">
+        <h3>Proyecto 3</h3>
+        <p>Descripción breve del proyecto realizado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Servicios -->
+  <section id="servicios" class="servicios">
+    <h2>Certificaciones</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Uno</h3>
+        <p>...</p>
+      </div>
+      <div class="service-card">
+        <h3>Dos</h3>
+        <p>...</p>
+      </div>
+      <div class="service-card">
+        <h3>Tres</h3>
+        <p>...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>&copy; 2025 Mi Web Profesional. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
